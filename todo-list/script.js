@@ -1,0 +1,1 @@
+const myTodoData = ['Eat', 'Sleep', 'Work'];
