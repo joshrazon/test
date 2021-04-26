@@ -1,14 +1,16 @@
-const myTodoData = [
-
-  ['Eat', 'Sleep'],
-  ['Smoke', 'Code'],
-  ['Shower', 'Go out']
-
-];
-
-
-function changeElem() {
-
+const pokeData = () => {
+  fetch("https://pokeapi.co/api/v2/pokemon/ditto")
+    .then(response => response.json())
+    .then(data => console.log(data))
 }
 
-changeElem();
+pokeData()
+
+// let myP = document.querySelector('p');
+// console.log(myP)
+
+// function changeElem() {
+
+// }
+
+// changeElem();
