@@ -6,9 +6,11 @@ function logSubmit(event) {
 }
 
 function logInput(todoItem) {
+
   if (todoItem === '') {
     return
   }
+
   log.innerText = todoItem;
 
 }

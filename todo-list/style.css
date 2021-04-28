@@ -31,11 +31,33 @@ body {
 .container ul {
   width: 50%;
   list-style-type: none;
+  overflow-y: auto;
 }
 
 .container ul li {
-  padding: 20px;
+  padding: 10px 0px;
+  border-bottom: 1px solid grey;
   font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  overflow-x: hidden;
+}
+
+.close-btn {
+  padding: 5px;
+  border-radius: 20%;
+  border: none;
+  color: rgb(0, 69, 173);
+  background-color: #fff;
+  cursor: pointer;
+  transition: all .2s;
+  overflow-x: hidden;
+}
+
+.close-btn:hover {
+  color: red;
+  transform: scale(1.1);
+  overflow-x: hidden;
 }
 
 .todo form {
