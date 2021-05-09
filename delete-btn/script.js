@@ -1,8 +1,21 @@
 // create delete function
+let buttons = document.querySelectorAll('.blue');
 
-// get all buttons
+function createLi(event) {
+  event.target.remove();
+  console.log(event)
+}
 
-// add event listener to buttons
+function erased() {
+
+  for (let i = 0; i < buttons.length; i++) {
+    buttons[i].addEventListener('click', createLi)
+  }
+
+
+}
+
+erased();
 
 
 

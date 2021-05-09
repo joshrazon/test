@@ -1,5 +1,5 @@
-// Nested arrays
-
-let myArr = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
-
-// [[1, 3], [5], [7, 9]]
+let squares = Array(9).fill(null);
+console.log(`initial value of squares ${squares} : ${squares.length}`)
+squares.slice()
+squares[1] = 'X';
+console.log(`after slice ${squares} : ${squares.length}`);
